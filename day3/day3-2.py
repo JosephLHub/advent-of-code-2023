@@ -11,8 +11,9 @@ for x in range(len(engine_schematic)):
             print(neighbours[0], " ", neighbours[1], " ", neighbours[2])
             print(neighbours[3], " ", neighbours[4], " ", neighbours[5])
             print(neighbours[6], " ", neighbours[7], " ", neighbours[8])
-            neighbouring_nums = []
-            for z in range(9):
-                if neighbours[z] in digits:
-                    neighbouring_nums.append([engine_schematic[x_][y_] for y_ in range(y-2, y+3) if (0 <= x_ < len(engine_schematic) and 0 <= y_ < len(engine_schematic))])
+            
+                    
 print(sum)
+
+#If neighbour = number, find whole number
+    #Travel forwards & backwards until non-numbers are found
