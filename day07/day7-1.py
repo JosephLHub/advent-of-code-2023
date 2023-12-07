@@ -1,7 +1,7 @@
 import sys
 hand_info = sys.stdin.read().split("\n")
 info_dict = {}
-cards = ["A", "K", "Q", "T", "9", "8", "7", "6", "5", "4", "3", "2", "J"]
+cards = ["A", "K", "Q", "J", "T", "9", "8", "7", "6", "5", "4", "3", "2"]
 index = ["m", "l", "k", "j", "i", "h", "g", "f", "e", "d", "c", "b", "a"]
 
 for info in hand_info:
