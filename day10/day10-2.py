@@ -42,6 +42,7 @@ for x in range(len(field)):
             if field[x][y-1] == "-" or field[x][y-1] == "F" or field[x][y-1] == "L":
                 paths.append((x, y-1))
                 directions.append(cardinals[3])
+            field[x][y].replace("S", "F")
 tiles = list(get_path(field, paths, directions))
 print(tiles)
 
